@@ -20,7 +20,7 @@ public class BasicFragment extends Fragment {
 			Bundle savedInstanceState) {
 
 		View view = inflater.inflate(R.layout.basic_fragment, container,false);
-
+	
 		Button button = (Button)view.findViewById(R.id.button_fragment);
 		// TODO Auto-generated method stub
 		button.setOnClickListener(new OnClickListener() {
